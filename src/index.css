@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.img-item1 {
+  height: 40rem;
+  width: 100%;
+  background: url(../src/carousel-img/crsl-1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-item2 {
+  height: 40rem;
+  width: 100%;
+  background: url(../src/carousel-img/crsl-2.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+.img-item3 {
+  height: 40rem;
+  width: 100%;
+  background: url(../src/carousel-img/crsl-3.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-item4 {
+  height: 40rem;
+  width: 100%;
+  background: url(../src/carousel-img/crsl-4.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img-item5 {
+  height: 40rem;
+  width: 100%;
+  background: url(../src/carousel-img/crsl-5.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.about {
+  margin: 0 15rem;
+}
+
+@media only screen and (min-width: 1368px) {
+  .main-crsl {
+    height: 35rem;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1601px) {
+  .main-crsl {
+    height: 30rem;
+    width: 70%;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 1602px) and (max-width: 1920px) {
+  .main-crsl {
+    height: 35rem;
+    width: 65%;
+    margin: auto;
+  }
+
+  .about {
+    margin: 0 35rem;
+  }
+}
